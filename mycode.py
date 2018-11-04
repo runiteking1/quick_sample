@@ -1,7 +1,7 @@
 def f(x):
     """Add a new comment"""
-    return 5*x + 5
+    return 5*x*x
 
 if __name__ == "__main__":
-    print(f(1))
+    print(f(2))
     print("Hello world")
